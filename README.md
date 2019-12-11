@@ -9,3 +9,6 @@ Ved tryk på musen placeres fluen hvor musen er.
   <li><b>Flue2move</b> viser et <b>flue objekt</b> ad gangen, der bevæger sig</li>
   <li><b>Flue3moveAll</b> viser alle <b>flue objekter</b> og alle bevæger sig</li>
 </ol>
+
+
+#OPGAVER
