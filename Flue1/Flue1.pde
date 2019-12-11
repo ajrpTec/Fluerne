@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-//Her er objektet flue vha. klassen Flue
+//Her er objektet flue,- lavet udfra klassen Flue
 Flue f = new Flue();
 
 void setup(){
@@ -39,13 +39,9 @@ class Flue{
   }
 
   void tegnFlue(){
-    //push og pop matrix bruges udenom koordinatsystems-transformationer...
-    //efter pop er koordinatsystemet tilbage til det oprindelige
     pushMatrix();
-      //orindeligt koordinatsystem flyttes og roteres
       translate(positionX,positionY);
       rotate(vinkel);
-        //fluen tegnes i koordinatsystemets origo dvs. (0,0)
         ellipse(0,0,20,8);
         ellipse(0,0-8,15,10);
         ellipse(0,0+8,15,10);
