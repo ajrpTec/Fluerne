@@ -1,12 +1,11 @@
-// Den nye kode beskrives i kommentarerne (se nedenfor)
-ArrayList<Flue> flueListe = new ArrayList<Flue>();     //Vi laver en arrayList til fluerne
+ArrayList<Flue> flueListe = new ArrayList<Flue>();
 
 void setup(){
   size(500,500);
 }
 
 void draw(){
-  for(int i=0; i<flueListe.size(); i++){ //listen køres igennem med et "for loop"
+  for(int i=0; i<flueListe.size(); i++){
     Flue f = flueListe.get(i);
     f.tegnFlue();
     f.flyt();
@@ -14,11 +13,11 @@ void draw(){
 }
 
 void keyPressed(){
-  flueListe.add(new Flue()); // tilfældig flue tilføjes til listen
+  flueListe.add(new Flue());
 }
 
 void mousePressed(){
-  flueListe.add(new Flue(mouseX, mouseY)); //flue med bestemt position tilføjes til listen
+  flueListe.add(new Flue(mouseX, mouseY));
 }
 
 /////////////////////////////////////////////////////////
