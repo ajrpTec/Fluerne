@@ -14,6 +14,7 @@ Ved tryk på musen placeres fluen hvor musen er.
   <li>Download koden, og Læs koden igennem sammen med en makker!
   <li>Tryk 4 gange på skærmen i Flue1,- hvor mange objekter tegnes nu hvert frame?
   <li>Tryk 4 gange på skærmen i Flue2move,- hvor mange objekter bevæges nu hvert frame? og hvorfor?
+  <li>Fjern pushMatrix og popMatrix i de tre programmer, har det nogen betydning og hvorfor?
   <li>Se Flue3moveAll,  Læs om ArrayList,- nævn en vigtig forskel ift. almindelige arrays
 </ol>
 
