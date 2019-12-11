@@ -1,4 +1,3 @@
-// Den nye kode beskrives i kommentarerne (se nedenfor)
 Flue f = new Flue();
 
 void setup(){
@@ -7,7 +6,7 @@ void setup(){
 
 void draw(){
   f.tegnFlue();
-  f.flyt();  //Fluen flytter sig fra sin oprindelige position med denne metode
+  f.flyt();
 }
 
 void keyPressed(){
@@ -37,7 +36,7 @@ class Flue{
     vinkel    = random(0,2*PI);
   }
   
-  void flyt(){//Fluen flytter sig fra sin oprindelige position med denne metode
+  void flyt(){
     distanceFlyttet = distanceFlyttet + 0.5;
   }
 
