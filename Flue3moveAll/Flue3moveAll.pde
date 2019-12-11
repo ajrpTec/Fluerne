@@ -1,21 +1,23 @@
 // Den nye kode beskrives i kommentarerne (se nedenfor)
-Flue f = new Flue();
+ArrayList<Flue> flueListe = new ArrayList<Flue>();     //Vi laver en arrayList til fluerne
 
 void setup(){
   size(500,500);
 }
 
 void draw(){
-  f.tegnFlue();
-  f.flyt();  //Fluen flytter sig fra sin oprindelige position med denne metode
+  for(Flue f: flueListe){ //listen køres igennem med et "enhanced for loop"
+    f.tegnFlue();
+    f.flyt();
+  }
 }
 
 void keyPressed(){
-  f = new Flue();
+  flueListe.add(new Flue()); // tilfældig flue tilføjes til listen
 }
 
 void mousePressed(){
-  f = new Flue(mouseX, mouseY);
+  flueListe.add(new Flue(mouseX, mouseY)); //flue med bestemt position tilføjes til listen
 }
 
 /////////////////////////////////////////////////////////
@@ -37,7 +39,7 @@ class Flue{
     vinkel    = random(0,2*PI);
   }
   
-  void flyt(){//Fluen flytter sig fra sin oprindelige position med denne metode
+  void flyt(){
     distanceFlyttet = distanceFlyttet + 0.5;
   }
 
@@ -45,7 +47,7 @@ class Flue{
     pushMatrix();
       translate(positionX,positionY);
       rotate(vinkel);
-      translate(distanceFlyttet,0); //det "nye" koordinatsystem flyttes i x-aksens retning
+      translate(distanceFlyttet,0);
         ellipse(0,0,20,8);
         ellipse(0,0-8,15,10);
         ellipse(0,0+8,15,10);
