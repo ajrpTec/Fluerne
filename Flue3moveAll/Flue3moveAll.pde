@@ -6,7 +6,8 @@ void setup(){
 }
 
 void draw(){
-  for(Flue f: flueListe){ //listen køres igennem med et "enhanced for loop"
+  for(int i=0; i<flueListe.size(); i++){ //listen køres igennem med et "for loop"
+    Flue f = flueListe.get(i);
     f.tegnFlue();
     f.flyt();
   }
