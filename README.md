@@ -10,7 +10,8 @@ Ved tryk på en tast laves en tilfældig placeret flue. <br>
 Ved tryk på musen placeres fluen hvor musen er.<br>
 <br>
 <b>Emner</b>: Lineær transformation (rotation, translation og skalering), og basal objektorienteret programmering<br>
-<b>Aflevering</b>: Endnu ingen fast dato 
+<b>Aflevering</b>: Den rettede kode og dokument med svar på forståelses opgaverne<br> 
+<b>Afleverings dato</b>: Endnu ingen fast dato 
 
 # Forståelses opgaver
 Download koden. Læs koden igennem sammen med en makker og svar på følgende.
