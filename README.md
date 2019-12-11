@@ -26,6 +26,7 @@ Ved tryk på musen placeres fluen hvor musen er.
 
 # BONUS JULE OPGAVER - Frivilligt
 <ol>
+  <li>Når fluerne når kanten af skærmen skal de vende om
   <li>Udtænk mulighed for at dræbe fluer  
   <li>Lav en ny klasse med edderkopper, der også skal kunne indsættes (brug evt. "nedarving" søg på "inheritance")
 </ol>
