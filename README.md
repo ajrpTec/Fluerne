@@ -16,6 +16,7 @@ Ved tryk på musen placeres fluen hvor musen er.<br>
 # Forståelses opgaver
 Download koden. Læs koden igennem sammen med en makker og svar på følgende.
 <ol>
+  <li>Hvad er forskellen på de tre programmer?
   <li>Start Flue1: Tryk fire gange på skærmen, hvor mange objekter tegnes nu hvert frame og hvorfor?
   <li>Start Flue2move: Tryk fire gange på skærmen, hvor mange objekter bevæges nu hvert frame og hvorfor?
   <li>Hvis du fjerner pushMatrix og popMatrix i de tre programmer, har det så nogen betydning og hvorfor?
